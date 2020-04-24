@@ -321,8 +321,6 @@
             <p class="entry-census">&nbsp;·&nbsp;2020-4-23&nbsp;
               
                     
-        ·<span id="readcount"></span>次阅读
-      
             </p>
             <hr>
           </header>
@@ -478,20 +476,6 @@
 <script src="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.8/js/botui.js"></script>
 <!-- 不蒜子 网页计数器 -->
 
-      
-       <script>
-  fetch('https://counts.42cloud.cn/api/counts.html')
-        .then(response => response.json())
-        .then(data => {
-              if (document.getElementById("readcount")) {
-                document.getElementById("readcount").innerHTML=data.Count;
-            }
-            if (document.getElementById("allcount")){
-                document.getElementById("allcount").innerHTML=data.Allcount;
-            }
-        })
-        .catch(err => console.error(err))
-</script>
       
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
 <script type="text/javascript">
