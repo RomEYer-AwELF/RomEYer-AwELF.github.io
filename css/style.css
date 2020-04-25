@@ -5825,7 +5825,11 @@ button.botui-actions-buttons-button {
     font-size:25px;
     border-radius:9px;
     padding-bottom:2px;
-    padding-top:5px
+    padding-top:5px;
+    padding-left:8px;
+    padding-right:8px;
+    word-break:keep-all; 
+    font-family: "萝莉体 第二版"; 
 }
 .logolink.moe-mashiro .shironeko {
     margin-left:-5px
