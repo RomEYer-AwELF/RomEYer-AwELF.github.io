@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-26T11:26:08.161Z</updated>
+  <updated>2020-04-26T11:47:34.939Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/04/25/hello-world/"/>
     <id>http://yoursite.com/2020/04/25/hello-world/</id>
     <published>2020-04-25T10:00:00.000Z</published>
-    <updated>2020-04-26T11:26:08.161Z</updated>
+    <updated>2020-04-26T11:47:34.939Z</updated>
     
     <summary type="html">
     
@@ -36,12 +36,10 @@
     </summary>
     
     
-      <category term="小说" scheme="http://yoursite.com/categories/%E5%B0%8F%E8%AF%B4/"/>
+      <category term="Hello World!" scheme="http://yoursite.com/categories/Hello-World/"/>
     
     
       <category term="Hello World!" scheme="http://yoursite.com/tags/Hello-World/"/>
-    
-      <category term="light-novel" scheme="http://yoursite.com/tags/light-novel/"/>
     
   </entry>
   
