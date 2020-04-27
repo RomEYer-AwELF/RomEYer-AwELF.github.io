@@ -2,13 +2,30 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
+<!--很显然看着这些代码真的，大概需要整理一些了，总之慢慢来吧（哭-->
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
   <title>Hello World | 幻想小屋</title>
+  <script type="text/javascript">    
+    var title = document.title;
+    var titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '(つェ⊂)我藏好了哦~ ';
+            clearTimeout(titleTime);
+        }
+        else {
+            document.title = '(*´∇｀*) 被你发现啦~ ';
+            titleTime = setTimeout(function() {
+                document.title = title;
+            }, 2000);
+        }
+    });
+  </script>
   <meta name="description" content="这是一个世界" />
   <meta name="keywords" content="小说,动漫,漫画,Sakura" />
   
-    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/img/favicon.ico">
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/img/favicon.ico">
   
   <meta http-equiv="x-dns-prefetch-control" content="on">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.6/css/googlefont.css" media="all">
@@ -513,6 +530,7 @@
 <script src="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.8/js/av-min.js"></script>
 <script src='https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.8/js/Valine.min.js'></script>
 <script src="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.8/js/botui.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@master/js/SmoothScroll.min.js"></script>
 <!-- 不蒜子 网页计数器 -->
 
       
