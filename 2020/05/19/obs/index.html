@@ -5,7 +5,7 @@
 <!--很显然看着这些代码真的，大概需要整理一些了，总之慢慢来吧（哭-->
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title>archive_a: 2020/4 | 幻想小屋 | 一个普通的博客</title>
+  <title>如何方便的使用OBS的虚拟摄像头 | 幻想小屋 | 一个普通的博客</title>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@0.8/js/title.js"></script>
   <meta name="description" content="这是一个世界" />
   <meta name="keywords" content="小说,动漫,技术,Sakura" />
@@ -338,104 +338,153 @@
   </div>
 </header>
 
-      <div class="blank" style="padding-top: 75px;">
-</div>
-<div id="content" class="site-content">
-  <div id="main">
-    <header class="page-header">
-      <h1 class="cat-title">
-      归档</h1>
-      <span class="cat-des">
-        <p>
-        Archives</p>
-      </span>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.6/css/sharejs.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.6/css/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img">
+        <img src="bg/20200306164050.gif" data-src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/bg/72937338_p0.png" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+      </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      如何方便的使用OBS的虚拟摄像头</h1>
+      <p class="entry-census">
+        <span>
+          <a href="">
+            <img src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/img/avatar.png">
+          </a>
+        </span>
+        <span>
+          <a href=""></a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2020-5-19
+        
+      
+        ·<span id="readcount"></span>次阅读
+      
+      </p>
     </header>
-    <div id="main-part">
-      <article class="art">
-        <div class="art-main">
-          <div class="art-content">
-            <div id="archives">
-              <p style="text-align:right;">
-                [<span id="al_expand_collapse" style="cursor: s-resize;">
-                全部展开/收缩</span>
-              ]</p>
-              
-              
-              
-              
-              
-                
-                <h3 class="al_year">2020年</h3>
-              
-              
-                
-                <ul class="al_mon_list">
-                  <li class="al_li">
-                    <span class="al_mon" style="cursor: s-resize;">
-                      05月(<span id="post-num">
-                      3</span>
-                    篇文章)</span>
-                    <ul class="al_post_list" style="">
-              
-                      <li>
-                        <a href="/2020/05/19/obs/">
-                          <span style="color:#0bf;">
-                          19日14:36:00</span>
-                          如何方便的使用OBS的虚拟摄像头
-                        </a>
-                      </li>
-                      
-                    </ul>
-                  </li>
-                </ul>
-              
-              
-              
-              
-              
-              
-                
-                <ul class="al_mon_list">
-                  <li class="al_li">
-                    <span class="al_mon" style="cursor: s-resize;">
-                      04月(<span id="post-num">
-                      3</span>
-                    篇文章)</span>
-                    <ul class="al_post_list" style="">
-              
-                      <li>
-                        <a href="/2020/04/27/Blog/">
-                          <span style="color:#0bf;">
-                          27日09:29:00</span>
-                          使用Github Pages架设自己免费的博客吧！
-                        </a>
-                      </li>
-                      
-              
-              
-              
-              
-              
-                      <li>
-                        <a href="/2020/04/25/hello-world/">
-                          <span style="color:#0bf;">
-                          25日18:00:00</span>
-                          Hello World
-                        </a>
-                      </li>
-                      
-                    </ul>
-                  </li>
-                </ul>
-              
-              
-            </div>
+  </div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"> <!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <h2 id="什么是OBS-Studio"><a href="#什么是OBS-Studio" class="headerlink" title="什么是OBS Studio"></a>什么是OBS Studio</h2><p>OBS是一款很好用的免费的直播软件，它几乎可以直播所有直播平台，且不需要下载每个直播平台相关的专用直播软件即可进行推流操作。</p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>我们需要什么？</p>
+<ul>
+<li>一台不会太过于卡顿的电脑</li>
+<li>思路清晰的大脑</li>
+<li>你的手</li>
+</ul>
+<h2 id="如何下载安装OBS-Studio和OBS-VirtualCam插件"><a href="#如何下载安装OBS-Studio和OBS-VirtualCam插件" class="headerlink" title="如何下载安装OBS Studio和OBS VirtualCam插件"></a>如何下载安装OBS Studio和OBS VirtualCam插件</h2><h3 id="下载和安装OBS-Studio"><a href="#下载和安装OBS-Studio" class="headerlink" title="下载和安装OBS Studio"></a>下载和安装OBS Studio</h3><p>打开官网：<a href="https://obsproject.com/" target="_blank" rel="noopener">https://obsproject.com/</a></p>
+<p>可以看到如下三个选项，选择Windows即可下载。当然如果你的系统是macOS那么便选择macOS进行下载。</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs1.png" alt=""></p>
+<blockquote>
+<p>如果上述网站无法打开，或者无法下载请点击 <a href="https://pan.romeyer.live/%E8%BD%AF%E4%BB%B6/OBS-Studio-25.0.8-Full-Installer-x64.exe" target="_blank" rel="noopener" title="下载"> 下载 </a></p>
+</blockquote>
+<p>下载后你将会得到一个安装包，点开后将会是如下图所示</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs2.png" alt=""></p>
+<p>点击Next<del>Next</del>便可以完成安装。</p>
+<h3 id="下载和安装OBS-VirtualCam插件"><a href="#下载和安装OBS-VirtualCam插件" class="headerlink" title="下载和安装OBS VirtualCam插件"></a>下载和安装OBS VirtualCam插件</h3><p>接下来我们将会下载和安装OBS VirtualCam你可以直接点击 <a href="https://pan.romeyer.live/%E8%BD%AF%E4%BB%B6/OBS-VirtualCam2.0.4-Installer.exe" target="_blank" rel="noopener" title="下载">下载</a></p>
+<p>如图Next进入下一步</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs3.png" alt=""></p>
+<p>这里的路径是OBS安装路径，无需更改直接Next即可</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs4.png" alt=""></p>
+<p>此处是选择安装四个虚拟摄像头或者仅安装一个虚拟摄像头，可以自行选择选择完毕后直接Next然后点击Install完成安装</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs5.png" alt=""></p>
+<p>以上我们已经完成了OBS Studio和OBS VirtualCam插件的下载以及安装</p>
+<h2 id="如何在OBS下使用和配置虚拟摄像头"><a href="#如何在OBS下使用和配置虚拟摄像头" class="headerlink" title="如何在OBS下使用和配置虚拟摄像头"></a>如何在OBS下使用和配置虚拟摄像头</h2><p>打开OBS你将会看到如下界面</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs6.png" alt=""></p>
+<p>选择上方菜单的工具点击虚拟摄像头</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs7.png" alt=""></p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs8.png" alt=""></p>
+<p>这时我们如果勾选了自动启动那么每次打开都会自动处于启动状态，不过因为我们并没有输出来源此时输出的都是完全黑的没有显示。所以我们需要在来源中添加一个源，即点击来源下方的+进行添加。（这里我选择的是媒体源其他的添加方法也是大同小异）</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs9.png" alt=""></p>
+<p>经过添加来源后，我们可以看到此时屏幕已经出现了画面，这样的话当我们通过视频通话时显示的就会是我们设置端画面了</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs10.png" alt=""></p>
+<p>OK相信大家都学（废）会了，可以自己去试着做了</p>
+<blockquote>
+<p>很显然只是作为虚拟摄像头使用，对应OBS确实是大材小用了。当然如果大家对此有兴趣我也会再（咕）写一些关于OBS的教程。</p>
+</blockquote>
+
+        </div>
+        
+        <!--</div>-->
+        <p></p>
+          
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/2020/04/27/Blog/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="bg/20200306164050.gif" data-src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/bgobs.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/bgobs.jpg">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                使用Github Pages架设自己免费的博客吧！</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+<div id="vcomments"></div>
+<script>
+  window.onload = function(){
+      var valine = new Valine();
+      valine.init({
+        el: '#vcomments',
+        appId: "sQ9C7Vuuba4TW3tsSwE8dEz0-gzGzoHsz",
+        appKey: "5DxGBtrJnxNXxKcx0EuVvV3C",
+        path: window.location.pathname,
+        placeholder: "你是我一生只会遇见一次的惊喜 ..."
+      })
+  }
+</script>
+
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/img/avatar.png" itemprop="image" alt="" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            
           </div>
         </div>
-      </article>
-    </div>
-  </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i>只要努力，还是办得到的！</p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
+
 
     </div>    
     <div class="ins-search">
