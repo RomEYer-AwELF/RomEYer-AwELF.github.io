@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-19T08:14:41.404Z</updated>
+  <updated>2020-05-26T01:53:25.452Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>命运奏章[番外][掘墓人1]</title>
+    <link href="http://yoursite.com/2020/05/26/novel-f1/"/>
+    <id>http://yoursite.com/2020/05/26/novel-f1/</id>
+    <published>2020-05-26T02:01:39.000Z</published>
+    <updated>2020-05-26T01:53:25.452Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;终焉：一切的开始便是一切结束的时候&quot;&gt;&lt;a href=&quot;#终焉：一切的开始便是一切结束的时候&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="小说" scheme="http://yoursite.com/categories/%E5%B0%8F%E8%AF%B4/"/>
+    
+    
+      <category term="番外" scheme="http://yoursite.com/tags/%E7%95%AA%E5%A4%96/"/>
+    
+  </entry>
   
   <entry>
     <title>如何方便的使用OBS的虚拟摄像头</title>
