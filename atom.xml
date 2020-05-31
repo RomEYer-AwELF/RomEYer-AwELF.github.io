@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-31T06:02:07.756Z</updated>
+  <updated>2020-05-31T06:49:25.896Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>来一发不太稳定的E3Symphony订阅吧！</title>
+    <title>来一发不太稳定的 E3 Symphony 订阅吧！</title>
     <link href="http://yoursite.com/2020/05/31/E3_Symphony/"/>
     <id>http://yoursite.com/2020/05/31/E3_Symphony/</id>
     <published>2020-05-31T06:03:00.000Z</published>
-    <updated>2020-05-31T06:02:07.756Z</updated>
+    <updated>2020-05-31T06:49:25.896Z</updated>
     
     <summary type="html">
     
@@ -39,7 +39,7 @@
       <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="E3Symphony" scheme="http://yoursite.com/tags/E3Symphony/"/>
+      <category term="E3 Symphony" scheme="http://yoursite.com/tags/E3-Symphony/"/>
     
   </entry>
   
