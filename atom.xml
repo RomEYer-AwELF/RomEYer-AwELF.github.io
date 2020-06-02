@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.romeyer.live.com/"/>
+  <link href="https://www.romeyer.live/"/>
   <updated>2020-05-31T06:49:25.896Z</updated>
-  <id>https://www.romeyer.live.com/</id>
+  <id>https://www.romeyer.live/</id>
   
   <author>
     <name>RomEYer</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>来一发不太稳定的 E3 Symphony 订阅吧！</title>
-    <link href="https://www.romeyer.live.com/2020/05/31/E3_Symphony/"/>
-    <id>https://www.romeyer.live.com/2020/05/31/E3_Symphony/</id>
+    <link href="https://www.romeyer.live/2020/05/31/E3_Symphony/"/>
+    <id>https://www.romeyer.live/2020/05/31/E3_Symphony/</id>
     <published>2020-05-31T06:03:00.000Z</published>
     <updated>2020-05-31T06:49:25.896Z</updated>
     
@@ -36,17 +36,17 @@
     </summary>
     
     
-      <category term="技术" scheme="https://www.romeyer.live.com/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://www.romeyer.live/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="E3 Symphony" scheme="https://www.romeyer.live.com/tags/E3-Symphony/"/>
+      <category term="E3 Symphony" scheme="https://www.romeyer.live/tags/E3-Symphony/"/>
     
   </entry>
   
   <entry>
     <title>命运奏章[番外][掘墓人1]</title>
-    <link href="https://www.romeyer.live.com/2020/05/26/novel-f1/"/>
-    <id>https://www.romeyer.live.com/2020/05/26/novel-f1/</id>
+    <link href="https://www.romeyer.live/2020/05/26/novel-f1/"/>
+    <id>https://www.romeyer.live/2020/05/26/novel-f1/</id>
     <published>2020-05-26T02:01:39.000Z</published>
     <updated>2020-05-26T01:53:25.452Z</updated>
     
@@ -63,17 +63,17 @@
     </summary>
     
     
-      <category term="小说" scheme="https://www.romeyer.live.com/categories/%E5%B0%8F%E8%AF%B4/"/>
+      <category term="小说" scheme="https://www.romeyer.live/categories/%E5%B0%8F%E8%AF%B4/"/>
     
     
-      <category term="番外" scheme="https://www.romeyer.live.com/tags/%E7%95%AA%E5%A4%96/"/>
+      <category term="番外" scheme="https://www.romeyer.live/tags/%E7%95%AA%E5%A4%96/"/>
     
   </entry>
   
   <entry>
     <title>如何方便的使用OBS的虚拟摄像头</title>
-    <link href="https://www.romeyer.live.com/2020/05/19/obs/"/>
-    <id>https://www.romeyer.live.com/2020/05/19/obs/</id>
+    <link href="https://www.romeyer.live/2020/05/19/obs/"/>
+    <id>https://www.romeyer.live/2020/05/19/obs/</id>
     <published>2020-05-19T06:36:00.000Z</published>
     <updated>2020-05-19T08:14:41.404Z</updated>
     
@@ -90,17 +90,17 @@
     </summary>
     
     
-      <category term="技术" scheme="https://www.romeyer.live.com/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://www.romeyer.live/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="OBS" scheme="https://www.romeyer.live.com/tags/OBS/"/>
+      <category term="OBS" scheme="https://www.romeyer.live/tags/OBS/"/>
     
   </entry>
   
   <entry>
     <title>使用Github Pages架设自己免费的博客吧！</title>
-    <link href="https://www.romeyer.live.com/2020/04/27/Blog/"/>
-    <id>https://www.romeyer.live.com/2020/04/27/Blog/</id>
+    <link href="https://www.romeyer.live/2020/04/27/Blog/"/>
+    <id>https://www.romeyer.live/2020/04/27/Blog/</id>
     <published>2020-04-27T01:29:00.000Z</published>
     <updated>2020-05-19T08:07:34.758Z</updated>
     
@@ -117,17 +117,17 @@
     </summary>
     
     
-      <category term="技术" scheme="https://www.romeyer.live.com/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://www.romeyer.live/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="博客架设" scheme="https://www.romeyer.live.com/tags/%E5%8D%9A%E5%AE%A2%E6%9E%B6%E8%AE%BE/"/>
+      <category term="博客架设" scheme="https://www.romeyer.live/tags/%E5%8D%9A%E5%AE%A2%E6%9E%B6%E8%AE%BE/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://www.romeyer.live.com/2020/04/25/hello-world/"/>
-    <id>https://www.romeyer.live.com/2020/04/25/hello-world/</id>
+    <link href="https://www.romeyer.live/2020/04/25/hello-world/"/>
+    <id>https://www.romeyer.live/2020/04/25/hello-world/</id>
     <published>2020-04-25T10:00:00.000Z</published>
     <updated>2020-04-29T02:39:54.292Z</updated>
     
@@ -144,10 +144,10 @@
     </summary>
     
     
-      <category term="Hello World!" scheme="https://www.romeyer.live.com/categories/Hello-World/"/>
+      <category term="Hello World!" scheme="https://www.romeyer.live/categories/Hello-World/"/>
     
     
-      <category term="Hello World!" scheme="https://www.romeyer.live.com/tags/Hello-World/"/>
+      <category term="Hello World!" scheme="https://www.romeyer.live/tags/Hello-World/"/>
     
   </entry>
   
