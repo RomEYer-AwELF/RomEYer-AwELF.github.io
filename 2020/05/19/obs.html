@@ -5,7 +5,7 @@
 <!--很显然看着这些代码真的，大概需要整理一些了，总之慢慢来吧（哭-->
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title>使用Github Pages架设自己免费的博客吧！ | 幻想小屋 | 一个普通的博客</title>
+  <title>如何方便的使用OBS的虚拟摄像头 | 幻想小屋 | 一个普通的博客</title>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@0.8/js/title.js"></script>
   <meta name="description" content="这是一个世界" />
   <meta name="keywords" content="小说,动漫,技术,Sakura" />
@@ -364,11 +364,11 @@
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
     <div class="pattern-attachment-img">
-        <img src="bg/20200306164050.gif" data-src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNblog/bg/72937338_p0.png" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
+        <img src="bg/20200306164050.gif" data-src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/bgobs.jpg" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
       </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
-      使用Github Pages架设自己免费的博客吧！</h1>
+      如何方便的使用OBS的虚拟摄像头</h1>
       <p class="entry-census">
         <span>
           <a href="">
@@ -380,7 +380,7 @@
         </span>
         <span class="bull">
         ·</span>
-        2020-4-27
+        2020-5-19
         
       
         ·<span id="readcount"></span>次阅读
@@ -397,88 +397,43 @@
         <!--<div class="toc-entry-content"> <!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          <h2 id="GitHub-Pages-简介"><a href="#GitHub-Pages-简介" class="headerlink" title="GitHub Pages 简介"></a>GitHub Pages 简介</h2><p>GitHub Pages 是一个静态网站托管服务，是一个完全免费的服务，被设计来管理你的来自一个GitHub 库的个人的、组织的、或者项目的页面。你可以创建和发布一个 GitHub Pages 到网上。<br><font color=red>不过 GitHub Pages 网站是在网络上公开使用的，即使他们的库是私有的。如果你敏感的数据在你的 Page 库中，你也有必要在发布之前删除它。</font></p>
-<blockquote>
-<p>详见：<a href="https://help.github.com/en/github/working-with-github-pages/about-github-pages" target="_blank" rel="noopener">https://help.github.com/en/github/working-with-github-pages/about-github-pages</a></p>
-</blockquote>
+          <h2 id="什么是OBS-Studio"><a href="#什么是OBS-Studio" class="headerlink" title="什么是OBS Studio"></a>什么是OBS Studio</h2><p>OBS是一款很好用的免费的直播软件，它几乎可以直播所有直播平台，且不需要下载每个直播平台相关的专用直播软件即可进行推流操作。</p>
 <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>我们需要什么？</p>
 <ul>
-<li>一个 GitHub 账号</li>
-<li>一个合适的 GitHub 仓库</li>
 <li>一台不会太过于卡顿的电脑</li>
-<li>Node 和 Git 环境</li>
+<li>思路清晰的大脑</li>
 <li>你的手</li>
 </ul>
-<h3 id="注册-GitHub-账号"><a href="#注册-GitHub-账号" class="headerlink" title="注册 GitHub 账号"></a>注册 GitHub 账号</h3><p>请首先打开<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a><br>你将会看到令人熟悉的注册界面<br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200427095019.png" alt=""></p>
-<ul>
-<li>Username 是你将要填入的用户名</li>
-<li>Email address 是你的电子邮件地址</li>
-<li>Password 是你的密码</li>
-</ul>
-<p>你需要做的是填写它们并且点击 Sign up for GitHub</p>
-<ul>
-<li>如果你已经拥有 GitHub 账号那么你可以选择跳过这一步继续往下看。</li>
-</ul>
-<p>点击后你将会看到如下页面（当然你的界面是已经填写好信息的界面，因为你刚刚填写过了）<br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/注册2.png" alt=""><br>接下来你需要根据提示完成验证并且点击 Create account<br>这样你就拥有自己的 GitHub 账号了（至于邮箱验证链接什么的我相信没有人不知道怎么做吧）</p>
-<h3 id="准备环境"><a href="#准备环境" class="headerlink" title="准备环境"></a>准备环境</h3><h4 id="安装-Git-和-Node"><a href="#安装-Git-和-Node" class="headerlink" title="安装 Git 和 Node"></a>安装 Git 和 Node</h4><p> 你需要准备 Node 和 Git 环境，Git将用于项目管理，而 Hexo 是基于 Node 驱动的博客框架因此我们也需要安装 Node</p>
-<ul>
-<li>Git 下载链接：<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a></li>
-<li>Node 下载链接：<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></li>
-</ul>
-<p>下载并安装完成 Git 后可以直接使用 git bash 或者打开 Windows自带的 PowerShell、CMD 并且输入如下内容验证是否成功。</p>
-<pre><code class="PowerShell">git version
-node -v
-npm -v</code></pre>
-<p>输入以上指令后如返回出现如下版本号则安装成功<br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/PS.png" alt=""><br>确认以上步骤无误后便可以开始安装 Hexo 了</p>
-<h4 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h4><p>首先新建一个文件夹，在文件夹目录按住 Shift 右键找到 PowerShell 选择打开<br>输入如下指令开始安装</p>
-<pre><code class="PowerShell">npm install hexo-cli -g</code></pre>
-<p>完成安装后我们可以输入以下指令查看版本</p>
-<pre><code class="PowerShell">hexo v</code></pre>
-<p>随后我们输入下面的指令进行初始化</p>
-<pre><code class="PowerShell">hexo init</code></pre>
-<p>这样就可以看到文件夹中生成了许多文件<br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/SC.png" alt=""></p>
-<ul>
-<li>node_modules 依赖包</li>
-<li>scaffolds 命令生成的文章模板</li>
-<li>source 命令创建的文章</li>
-<li>themes 主题文件</li>
-<li>_config.yml 博客的配置文件可以在此配置大部分的参数<br>（虽然名称不同但是和主题的配置文件不同请注意）</li>
-<li>db.json source 解析所得到的文件</li>
-<li>package.json 项目所需模块项目的配置信息</li>
-</ul>
+<h2 id="如何下载安装OBS-Studio和OBS-VirtualCam插件"><a href="#如何下载安装OBS-Studio和OBS-VirtualCam插件" class="headerlink" title="如何下载安装OBS Studio和OBS VirtualCam插件"></a>如何下载安装OBS Studio和OBS VirtualCam插件</h2><h3 id="下载和安装OBS-Studio"><a href="#下载和安装OBS-Studio" class="headerlink" title="下载和安装OBS Studio"></a>下载和安装OBS Studio</h3><p>打开官网：<a href="https://obsproject.com/" target="_blank" rel="noopener">https://obsproject.com/</a></p>
+<p>可以看到如下三个选项，选择Windows即可下载。当然如果你的系统是macOS那么便选择macOS进行下载。</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs1.png" alt=""></p>
 <blockquote>
-<p>详细可见官方介绍文档：<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">https://hexo.io/zh-cn/</a></p>
+<p>如果上述网站无法打开，或者无法下载请点击 <a href="https://pan.romeyer.live/%E8%BD%AF%E4%BB%B6/OBS-Studio-25.0.8-Full-Installer-x64.exe" target="_blank" rel="noopener" title="下载"> 下载 </a></p>
 </blockquote>
-<p>确认如上文件存在就可以测试启动了，只需要输入以下指令就可以完成启动</p>
-<pre><code class="PowerShell">npm i hexo-server
-hexo generate
-hexo server</code></pre>
-<p>接下来访问 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 便可以访问博客的界面了，恭喜你成功搭建了自己的博客页面。<br>当然现在只是完成了本地搭建，接下来我们要使用 Github Pages 完成部署</p>
-<h2 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h2><p>回到 GitHub 我们可以看到如下内容，点击左上角的 New 创建一个新的仓库<br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/Git.png" alt=""><br>随后你需要在下面填写一些信息<br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200427151201.png" alt=""></p>
-<ul>
-<li>Repository name 填入你的<font color=red> 用户名+github.io </font>（例如我的用户名 RomEYer-AwELF.github.io）</li>
-<li>Description 填入你的仓库名称（例如 Hexo、blog 或者其他）<br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200427151837.png" alt=""><br>点击 Create repository 完成操作<br>下面回到 PowerShell 中，配置github账户信息<br>输入以下信息并且替换“用户名”为你的用户名“邮箱地址”为你的注册邮箱地址</li>
-</ul>
-<pre><code class="PowerShell">git config --global user.name &quot;用户名&quot;
-git config --global user.email &quot;邮箱地址&quot;</code></pre>
-<p>然后生成密钥 SSH key</p>
-<pre><code class="PowerShell">ssh-keygen -t rsa -C &quot;邮箱地址&quot;</code></pre>
-<p>根据提示三次回车后即可完成操作<br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200427153851.png" alt=""><br>接下来打开C:\Users\ <em>你的电脑用户名</em> \ .ssh<br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200427154058.png" alt=""><br>用笔记本打开 id_rsa.pub 文件<font color=red>复制其中 ssh-rsa 以及后面,除去邮箱外的所有数据</font><br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200427154548.png" alt=""><br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200427154710.png" alt=""><br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200427154853.png" alt=""></p>
-<ul>
-<li>Title 填写名称（任意）</li>
-<li>Key 填写刚才复制的ssh-rsa 以及后面,除去邮箱外的所有数据（不包含邮箱，后面不要留空格！！）</li>
-</ul>
-<p>确认填写完毕后点击 Add SSH key 即可</p>
-<h2 id="将博客部署到-GitHub"><a href="#将博客部署到-GitHub" class="headerlink" title="将博客部署到 GitHub"></a>将博客部署到 GitHub</h2><p>现在我们已经成功搭建了博客（在本地）而且有一些人可能使用了 hexo server 后没有 Ctrl+C 停止运行导致开了两个 SSH（笑）<br>接下来要做的就是将博客部署到 GitHub 运行<br>首先打开博客根目录下的  _config.yml  配置文参数直接在配置文件末尾添加如下图配置<br><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200427155740.png" alt=""><br>红框中的请改成自己的 GitHub 用户名/用户名</p>
-<pre><code>deploy:
-  type: git
-  repo: https://github.com/RomEYer-AwELF/RomEYer-AwELF.github.io.git
-  branch: master</code></pre><p>配置完成后记得 Ctrl+S 保存<br>然后安装部署插件 hexo-deployer-git 在博客目录下打开 PowerShell 输入如下指令</p>
-<pre><code class="PowerShell">npm install hexo-deployer-git --save</code></pre>
-<p>插件完成安装后输入</p>
-<pre><code class="PowerShell">hexo generate
-hexo deploy</code></pre>
-<p>等待部署完毕后，访问网址 https://你的用户名.github.io  就可以访问你的博客了<br><font color=red>至此属于你的博客就部署完成了！！！</font><br>之后我也将对于博客主题配置、写作方法等进行详细介绍</p>
+<p>下载后你将会得到一个安装包，点开后将会是如下图所示</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs2.png" alt=""></p>
+<p>点击Next便可以完成安装。</p>
+<h3 id="下载和安装OBS-VirtualCam插件"><a href="#下载和安装OBS-VirtualCam插件" class="headerlink" title="下载和安装OBS VirtualCam插件"></a>下载和安装OBS VirtualCam插件</h3><p>接下来我们将会下载和安装OBS VirtualCam你可以直接点击 <a href="https://pan.romeyer.live/%E8%BD%AF%E4%BB%B6/OBS-VirtualCam2.0.4-Installer.exe" target="_blank" rel="noopener" title="下载">下载</a></p>
+<p>如图Next进入下一步</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs3.png" alt=""></p>
+<p>这里的路径是OBS安装路径，无需更改直接Next即可</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs4.png" alt=""></p>
+<p>此处是选择安装四个虚拟摄像头或者仅安装一个虚拟摄像头，可以自行选择选择完毕后直接Next然后点击Install完成安装</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs5.png" alt=""></p>
+<p>以上我们已经完成了OBS Studio和OBS VirtualCam插件的下载以及安装</p>
+<h2 id="如何在OBS下使用和配置虚拟摄像头"><a href="#如何在OBS下使用和配置虚拟摄像头" class="headerlink" title="如何在OBS下使用和配置虚拟摄像头"></a>如何在OBS下使用和配置虚拟摄像头</h2><p>打开OBS你将会看到如下界面</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs6.png" alt=""></p>
+<p>选择上方菜单的工具点击虚拟摄像头</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs7.png" alt=""></p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs8.png" alt=""></p>
+<p>这时我们如果勾选了自动启动那么每次打开都会自动处于启动状态，不过因为我们并没有输出来源此时输出的都是完全黑的没有显示。所以我们需要在来源中添加一个源，即点击来源下方的+进行添加。（这里我选择的是媒体源其他的添加方法也是大同小异）</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs9.png" alt=""></p>
+<p>经过添加来源后，我们可以看到此时屏幕已经出现了画面，这样的话当我们通过视频通话时显示的就会是我们设置端画面了</p>
+<p><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/obs10.png" alt=""></p>
+<p>OK相信大家都学（废）会了，可以自己去试着做了</p>
+<blockquote>
+<p>很显然只是作为虚拟摄像头使用，对应OBS确实是大材小用了。当然如果大家对此有兴趣我也会再（咕）写一些关于OBS的教程。</p>
+</blockquote>
 
         </div>
         
@@ -503,15 +458,15 @@ hexo deploy</code></pre>
           
             <div class="post-nepre half previous">
           
-            <a href="/2020/05/19/obs/" rel="prev">
+            <a href="/2020/05/26/novel-f1.html" rel="prev">
               <div class="background">
-                <img class="lazyload" src="bg/20200306164050.gif" data-src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/bgobs.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/bgobs.jpg">
+                <img class="lazyload" src="bg/20200306164050.gif" data-src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/nf20200525.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/nf20200525.jpg">
               </div>
               <span class="label">
               Previous Post</span>
               <div class="info">
                 <h3>
-                如何方便的使用OBS的虚拟摄像头</h3>
+                命运奏章[番外][掘墓人1]</h3>
                 <hr>
               </div>
             </a>
@@ -521,15 +476,15 @@ hexo deploy</code></pre>
           
             <div class="post-nepre half next">
           
-            <a href="/2020/04/25/hello-world/" rel="next">
+            <a href="/2020/04/27/Blog.html" rel="next">
               <div class="background">
-                <img class="lazyload" src="bg/20200306164050.gif" data-src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20180327.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20180327.png">
+                <img class="lazyload" src="bg/20200306164050.gif" data-src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNblog/bg/72937338_p0.png" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNblog/bg/72937338_p0.png">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                Hello World</h3>
+                使用Github Pages架设自己免费的博客吧！</h3>
                 <hr>
               </div>
             </a>
