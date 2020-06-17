@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.romeyer.live/"/>
-  <updated>2020-06-15T11:51:41.030Z</updated>
+  <updated>2020-06-17T12:49:58.506Z</updated>
   <id>https://www.romeyer.live/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>修改NewEdge主题方法简谈</title>
+    <link href="https://www.romeyer.live/2020/06/17/NewEdge.html"/>
+    <id>https://www.romeyer.live/2020/06/17/NewEdge.html</id>
+    <published>2020-06-17T12:43:53.000Z</published>
+    <updated>2020-06-17T12:49:58.506Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;方法简介&quot;&gt;&lt;a href=&quot;#方法简介&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://www.romeyer.live/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="NewEdge Theme" scheme="https://www.romeyer.live/tags/NewEdge-Theme/"/>
+    
+  </entry>
   
   <entry>
     <title>来一发不太稳定的 E3 Symphony 订阅吧！</title>
