@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.romeyer.live/"/>
-  <updated>2020-06-17T13:06:00.132Z</updated>
+  <updated>2020-06-21T04:06:31.006Z</updated>
   <id>https://www.romeyer.live/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>论如何白嫖 IBM 优质梯子</title>
+    <link href="https://www.romeyer.live/2020/06/21/IBM.html"/>
+    <id>https://www.romeyer.live/2020/06/21/IBM.html</id>
+    <published>2020-06-21T02:29:24.000Z</published>
+    <updated>2020-06-21T04:06:31.006Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;简述&quot;&gt;&lt;a href=&quot;#简述&quot; class=&quot;headerlink&quot; title=&quot;简述&quot;&gt;&lt;/a&gt;简述&lt;/h2&gt;&lt;p&gt;首先在这里“梯子”是什么这里就不多说了，这次的目标是如何完全白嫖一个“梯子”&lt;/p&gt;
+&lt;p&gt;当然这是一个“终极白嫖”因为&lt;font
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://www.romeyer.live/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="V2-Ray" scheme="https://www.romeyer.live/tags/V2-Ray/"/>
+    
+  </entry>
   
   <entry>
     <title>修改NewEdge主题方法简谈</title>
