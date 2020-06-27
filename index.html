@@ -15,7 +15,7 @@
   <meta http-equiv="x-dns-prefetch-control" content="on">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.6/css/googlefont.css" media="all">
   <!--  <link rel="dns-prefetch" href="//cdn.jsdelivr.net">-->
-  <link rel="stylesheet" id="saukra_css-css" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@1.0/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" id="saukra_css-css" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@1.8/css/style.css" type="text/css" media="all">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@0.8/css/lib.min.css" media="all">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@0.8/css/font.css" media="all">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@0.8/css/insight.css" media="all">
@@ -388,20 +388,6 @@
         <div class="info">
           <h3>Sakura</h3>
           <p>本站 HEXO 主题</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  
-  <div class="top-feature-v2">
-    <div class="the-feature square from_left_and_right">
-      <a href="/COVID-19" target="_blank">
-        <div class="img">
-          <img src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/img/banner/V.png">
-        </div>
-        <div class="info">
-          <h3>COVID-19MAP</h3>
-          <p>新冠疫情地图</p>
         </div>
       </a>
     </div>
@@ -811,8 +797,10 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@0.8/js/console.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@1.1/js/jquery.smoove.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@1.1/js/sakura-app.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.8/js/av-min.js"></script>
-<script src='https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.8/js/Valine.min.js'></script>
+
+<script src='https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@master/js/Valine.min-V1%20.js'></script>
+<!--临时处理，待解决-->
+
 <script src="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.8/js/botui.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN@1.1/js/SmoothScroll.min.js"></script>
 <!-- 不蒜子 网页计数器 -->
@@ -1033,6 +1021,52 @@
     <div style="font-size: .1em;text-align: center;margin-top: -3%;font-family: 'loli'">
     <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278953952'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1278953952%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));
     </script>
+
+    <style type="text/css">
+        .vnick {
+             position: relative;
+             cursor: pointer;
+             color: #FE9600;
+             text-decoration: none;
+             display: inline-block;
+         }
+         .changeSkin-gear {
+                font-size: 10em;
+                font-family: 'Merriweather Sans',Helvetica,Tahoma,Arial,'PingFang SC','Hiragino Sans GB','Microsoft Yahei','WenQuanYi Micro Hei',sans-serif;
+            }
+         .control-btn-serif {
+            font-family: 'Noto Serif SC','Source Han Serif SC','Source Han Serif',source-han-serif-sc,'PT Serif','SongTi SC','MicroSoft Yahei',Georgia,serif;
+         }
+         .live2d-widget-container {
+            z-index: 6 !important;
+         }
+    </style>
+    
+    <!-- pages壁纸切换 -->
+    <div class="skin-menu no-select" id="mainskin"  style="position: fixed">
+        <div class="theme-controls row-container">
+            <ul class="menu-list">
+                <li id="white-bg"> <i class="fa fa-television" aria-hidden="true"></i></li>
+                <li id="sakura-bg"> <i class="iconfont icon-sakura"></i></li>
+                <li id="gribs-bg"> <i class="fa fa-slack" aria-hidden="true"></i></li>
+                <li id="KAdots-bg"> <i class="iconfont icon-dots"></i></li>
+                <li id="totem-bg"> <i class="fa fa-optin-monster" aria-hidden="true"></i></li>
+                <li id="pixiv-bg"> <i class="iconfont icon-pixiv"></i></li>
+                <li id="bing-bg"> <i class="iconfont icon-bing"></i></li>
+                <li id="dark-bg"> <i class="fa fa-moon-o" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+        <div class="font-family-controls row-container">
+            <button type="button" class="control-btn-serif selected" data-mode="serif" onclick="mashiro_global.font_control.change_font()">Serif</button>
+            <button type="button" class="control-btn-sans-serif" data-mode="sans-serif" onclick="mashiro_global.font_control.change_font()">Sans Serif</button>
+        </div>
+    </div>   
+    <canvas id="night-mode-cover"></canvas> 
+        <div class="changeSkin-gear no-select">
+        <div class="keys" id="setbtn"> <span id="open-skinMenu"> 切换壁纸 | SCHEME TOOL 
+            &nbsp;<i class="iconfont icon-gear inline-block rotating"></i> </span></div>
+    </div>
+    <!-- skin.end -->
     </div>
     </div>
 
@@ -1288,5 +1322,5 @@
   });
 </script>
   
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"tagMode":false,"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/Epsilon2.1.model.json"},"display":{"position":"right","width":250,"height":400,"hOffset":20},"mobile":{"show":false},"dialog":{"enable":false,"hitokoto":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/"});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"tagMode":false,"pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/Epsilon2.1.model.json"},"display":{"position":"left","width":250,"height":400,"hOffset":20},"mobile":{"show":false},"dialog":{"enable":false,"hitokoto":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/"});</script></body>
 </html>
