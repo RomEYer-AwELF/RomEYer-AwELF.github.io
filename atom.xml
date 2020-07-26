@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.romeyer.live/"/>
-  <updated>2020-07-14T01:55:45.934Z</updated>
+  <updated>2020-07-26T01:49:45.027Z</updated>
   <id>https://www.romeyer.live/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浅谈羊毛党和 Microsoft 最近的各类事件</title>
+    <link href="https://www.romeyer.live/2020/07/25/Microsoft.html"/>
+    <id>https://www.romeyer.live/2020/07/25/Microsoft.html</id>
+    <published>2020-07-25T14:29:14.000Z</published>
+    <updated>2020-07-26T01:49:45.027Z</updated>
+    
+    <summary type="html">
+    
+      太久不更新或许不是一件比较好的事情，所以我想，我必须说（水）点什么东西,比如说就浅谈一下微软酱~（酱?）最近的各种花式操作...
+    
+    </summary>
+    
+    
+      <category term="杂谈" scheme="https://www.romeyer.live/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="Microsoft" scheme="https://www.romeyer.live/tags/Microsoft/"/>
+    
+  </entry>
   
   <entry>
     <title>论如何白嫖 IBM 优质梯子</title>
