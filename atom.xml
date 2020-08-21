@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.loliloli.moe/"/>
-  <updated>2020-08-08T07:36:16.856Z</updated>
+  <updated>2020-08-21T06:07:47.589Z</updated>
   <id>https://www.loliloli.moe/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在同济世纪互联租户中创建应用并调用 API 方法</title>
+    <link href="https://www.loliloli.moe/2020/08/21/21vianet.html"/>
+    <id>https://www.loliloli.moe/2020/08/21/21vianet.html</id>
+    <published>2020-08-21T06:07:44.000Z</published>
+    <updated>2020-08-21T06:07:47.589Z</updated>
+    
+    <summary type="html">
+    
+      先简单说明一下已知情况，同济大学并未开放普通用户的 Azure AD 管理门户访问权限，至于一般注册应用也都是需要进入 AAD 来完成相关注册的。不过这里有一点很有趣，首先我们可以了解几点...
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://www.loliloli.moe/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="21vianet" scheme="https://www.loliloli.moe/tags/21vianet/"/>
+    
+  </entry>
   
   <entry>
     <title>Microsoft 灵车订阅表单</title>
@@ -105,11 +126,11 @@
     <link href="https://www.loliloli.moe/2020/05/31/E3_Symphony.html"/>
     <id>https://www.loliloli.moe/2020/05/31/E3_Symphony.html</id>
     <published>2020-05-31T06:03:00.000Z</published>
-    <updated>2020-08-08T04:39:28.555Z</updated>
+    <updated>2020-08-21T06:01:42.591Z</updated>
     
     <summary type="html">
     
-      E3 symphony 是一种免费的订阅，原本用于公益机构的免费使用可以拥有1~350W用户许可且每用户可激活Microsoft365 和 5TB的OneDrive 不过不推荐使用...
+      E3 symphony 是一种免费的订阅，原本用于公益机构的免费使用可以拥有1~350W用户许可且每用户可激活Microsoft365 和 5TB的 OneDrive 不过不推荐使用...
     
     </summary>
     

@@ -277,16 +277,16 @@ RESOURSE_ID // 资源组ID</code></pre>
   <entry>
     <title>来一发不太稳定的 E3 Symphony 订阅吧！</title>
     <url>/2020/05/31/E3_Symphony.html</url>
-    <content><![CDATA[<h2 id="什么是E3-Symphony订阅？"><a href="#什么是E3-Symphony订阅？" class="headerlink" title="什么是E3 Symphony订阅？"></a>什么是E3 Symphony订阅？</h2><p>E3 symphony 是一种免费的订阅，原本用于公益机构的免费使用可以拥有 1~350W 用户许可且每用户可激活Office365 和 OneDrive （其实还有各种订阅，普通人应该用不上）</p>
+    <content><![CDATA[<h2 id="什么是-E3-Symphony-订阅？"><a href="#什么是-E3-Symphony-订阅？" class="headerlink" title="什么是 E3 Symphony 订阅？"></a>什么是 E3 Symphony 订阅？</h2><p>E3 symphony 是一种免费的订阅，原本用于公益机构的免费使用可以拥有 1~350W 用户许可且每用户可激活Office365 和 OneDrive （其实还有各种订阅，普通人应该用不上）</p>
 <p>此教程只做学习研究，请不要用于商业用途，尤其是不要学习某宝某些不良店家！！！</p>
 <p>此订阅几乎不到一天就会被收回，所以也不要用作重要用途！！！</p>
 <p>当然，如果你的IP足够干净（一般来说美国的干净IP订阅的会活得更久）也有可能可以使用更长时间。甚至有的可以长达数年正常。</p>
 <p>如果想活得久一点作为收藏，建议订阅不超过 100W ，使用干净IP尽量不要使用重复IP然后使用无痕模式注册。</p>
-<h2 id="E3-Symphony订阅有什么用"><a href="#E3-Symphony订阅有什么用" class="headerlink" title="E3 Symphony订阅有什么用"></a>E3 Symphony订阅有什么用</h2><p>简而言之，因为会翻车，几乎 90% 翻车，所以没有什么用，大概就是能装逼？或者收藏（至少博主是收藏用的）</p>
+<h2 id="E3-Symphony-订阅有什么用"><a href="#E3-Symphony-订阅有什么用" class="headerlink" title="E3 Symphony 订阅有什么用"></a>E3 Symphony 订阅有什么用</h2><p>简而言之，因为会翻车，几乎 90% 翻车，所以没有什么用，大概就是能装逼？或者收藏（至少博主是收藏用的）</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E3.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E3.png" alt=""></a></p>
 <p>翻车的样子（笑</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E3FC.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E3FC.png" alt=""></a></p>
-<h2 id="如何获取E3-Symphony订阅"><a href="#如何获取E3-Symphony订阅" class="headerlink" title="如何获取E3 Symphony订阅"></a>如何获取E3 Symphony订阅</h2><p>我们需要什么？</p>
+<h2 id="如何获取-E3-Symphony-订阅"><a href="#如何获取-E3-Symphony-订阅" class="headerlink" title="如何获取 E3 Symphony 订阅"></a>如何获取 E3 Symphony 订阅</h2><p>我们需要什么？</p>
 <ul>
 <li>一份 Microsoft 账号</li>
 <li>一台不会太过于卡顿的电脑</li>
@@ -298,8 +298,8 @@ RESOURSE_ID // 资源组ID</code></pre>
 <p>Azure 登陆链接：<a href="https://aad.portal.azure.com/" target="_blank" rel="noopener">https://aad.portal.azure.com</a></p>
 <p>Microsoft 365 admin center：<a href="https://admin.microsoft.com/" target="_blank" rel="noopener">https://admin.microsoft.com</a></p>
 <p>E3 Symphony 订阅地址：<a href="https://admin.microsoft.com/SubscriptionDetails?OfferId=C18B235E-8366-48b8-AE41-6E596C44944D" target="_blank" rel="noopener">https://admin.microsoft.com/SubscriptionDetails?OfferId=C18B235E-8366-48b8-AE41-6E596C44944D</a></p>
-<h2 id="获取E3-Symphony订阅方法"><a href="#获取E3-Symphony订阅方法" class="headerlink" title="获取E3 Symphony订阅方法"></a>获取E3 Symphony订阅方法</h2><h3 id="注册Microsoft账号"><a href="#注册Microsoft账号" class="headerlink" title="注册Microsoft账号"></a>注册Microsoft账号</h3><p>这个……没人不会吧，略过略过……….</p>
-<h3 id="登录Azure创建组织"><a href="#登录Azure创建组织" class="headerlink" title="登录Azure创建组织"></a>登录Azure创建组织</h3><p>打开<a href="https://aad.portal.azure.com/" target="_blank" rel="noopener">https://aad.portal.azure.com</a>登入 Microsoft 账号</p>
+<h2 id="获取-E3-Symphony-订阅方法"><a href="#获取-E3-Symphony-订阅方法" class="headerlink" title="获取 E3 Symphony 订阅方法"></a>获取 E3 Symphony 订阅方法</h2><h3 id="注册-Microsoft-账号"><a href="#注册-Microsoft-账号" class="headerlink" title="注册 Microsoft 账号"></a>注册 Microsoft 账号</h3><p>这个……没人不会吧，略过略过……….</p>
+<h3 id="登录-Azure-创建租户"><a href="#登录-Azure-创建租户" class="headerlink" title="登录 Azure 创建租户"></a>登录 Azure 创建租户</h3><p>打开<a href="https://aad.portal.azure.com/" target="_blank" rel="noopener">https://aad.portal.azure.com</a>登入 Microsoft 账号</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531131428.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531131428.png" alt=""></a></p>
 <p>登入后你将看到如下界面</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531131607.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531131607.png" alt=""></a></p>
@@ -308,7 +308,7 @@ RESOURSE_ID // 资源组ID</code></pre>
 <p>点击下一步</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531131930.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531131930.png" alt=""></a></p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531132010.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531132010.png" alt=""></a></p>
-<p>如图组织名称和初始域名可以随意填写需要的然后点击下一步查看+创建</p>
+<p>如图租户名称和初始域名可以随意填写需要的然后点击下一步查看+创建</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531132146.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531132146.png" alt=""></a></p>
 <p>随后点击创建等待片刻即可，创建完毕后会显示如下图点击此处的组织名称可以进入组织页面</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531132423.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531132423.png" alt=""></a></p>
@@ -318,7 +318,7 @@ RESOURSE_ID // 资源组ID</code></pre>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531132913.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531132913.png" alt=""></a></p>
 <p>选择建好的用户重置密码并且记下密码和账户（<a href="mailto:XXX@XXX.onmicrosoft.com">XXX@XXX.onmicrosoft.com</a>）</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531133207.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531133207.png" alt=""></a></p>
-<h3 id="登录Microsoft-365-admin-center和获取订阅"><a href="#登录Microsoft-365-admin-center和获取订阅" class="headerlink" title="登录Microsoft 365 admin center和获取订阅"></a>登录Microsoft 365 admin center和获取订阅</h3><p>打开<a href="https://admin.microsoft.com/" target="_blank" rel="noopener">https://admin.microsoft.com</a>登录新建的账户</p>
+<h3 id="登录-Microsoft-365-admin-center-和获取订阅"><a href="#登录-Microsoft-365-admin-center-和获取订阅" class="headerlink" title="登录 Microsoft 365 admin center 和获取订阅"></a>登录 Microsoft 365 admin center 和获取订阅</h3><p>打开<a href="https://admin.microsoft.com/" target="_blank" rel="noopener">https://admin.microsoft.com</a>登录新建的账户</p>
 <p>登陆后界面如下</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531133829.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/E320200531133829.png" alt=""></a></p>
 <p>打开以下订阅地址：<a href="https://admin.microsoft.com/SubscriptionDetails?OfferId=C18B235E-8366-48b8-AE41-6E596C44944D" target="_blank" rel="noopener">https://admin.microsoft.com/SubscriptionDetails?OfferId=C18B235E-8366-48b8-AE41-6E596C44944D</a></p>
@@ -1021,6 +1021,35 @@ RESOURSE_ID // 资源组ID</code></pre>
       </categories>
       <tags>
         <tag>番外</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在同济世纪互联租户中创建应用并调用 API 方法</title>
+    <url>/2020/08/21/21vianet.html</url>
+    <content><![CDATA[<h2 id="在同济世纪互联租户中创建应用并调用-API-方法"><a href="#在同济世纪互联租户中创建应用并调用-API-方法" class="headerlink" title="在同济世纪互联租户中创建应用并调用 API 方法"></a>在同济世纪互联租户中创建应用并调用 API 方法</h2><p>先简单说明一下已知情况，同济大学并未开放普通用户的 Azure AD 管理门户访问权限，至于一般注册应用也都是需要进入 AAD 来完成相关注册的。</p>
+<p><strong>不过这里有一点很有趣，首先我们可以了解几点：</strong></p>
+<ul>
+<li><p><strong>1.应用的 ID 和密钥是可以公用的，只要拥有以上两者，任何人都可以正常使用同一个注册应用，而 Onemanager 就是类似的方法。</strong></p>
+</li>
+<li><p><strong>2.在 AAD 的应用是可以跨租户注册的，如果我们在一个租户注册了对应应用，那么如果我们登录另外一个租户的账号的时候，这个应用也会转移到对应租户。而在这里这个应用是作为企业应用存在的，但是同样是有效的。</strong></p>
+</li>
+</ul>
+<p>知道了以上两点，我们实际上就已经解决了 AAD 无法访问导致的应用无法注册的问题。</p>
+<h4 id="附参考图（以下图样由国际版租户测试得到）："><a href="#附参考图（以下图样由国际版租户测试得到）：" class="headerlink" title="附参考图（以下图样由国际版租户测试得到）："></a><strong>附参考图（以下图样由国际版租户测试得到）：</strong></h4><p>租户一中进行应用注册，名称为：“ API （测试）”</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API1.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API1.png" alt=""></a></p>
+<p>跳转时输入租户二中某账号信息并且完成许可</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API2.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API2.png" alt=""></a></p>
+<p>此时租户二的企业应用程序中已经出现了租户一中“ API （测试）”应用</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API3.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API3.png" alt=""></a></p>
+<h2 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h2><p>1.这里使用的其他租户必须开放 AAD 访问权限以便于可以注册应用，必须事先将回调地址设置好且获取应用 ID 和应用机密。（此处的应用 ID 和机密对应调用 API 时需要使用的应用 ID 和应用机密）</p>
+<p>2.需要额外准备世纪互联的租户，这个租户可以是有订阅或者无订阅租户（空全局）无订阅租户可以由 AAD 创建，这一点和国际版如出一辙，详细可以参考 <a href="https://www.loliloli.moe/2020/05/31/E3_Symphony.html#登录Azure创建租户">登录Azure创建租户</a> 有订阅租户可以是教育或者商业试用订阅全局，注册方法可以自行查询。</p>
+<h2 id="后日谈"><a href="#后日谈" class="headerlink" title="后日谈"></a>后日谈</h2><p><em>更新于2020.08.21</em></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>21vianet</tag>
       </tags>
   </entry>
 </search>
