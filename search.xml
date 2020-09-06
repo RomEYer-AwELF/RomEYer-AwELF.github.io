@@ -1081,7 +1081,7 @@ RESOURSE_ID // 资源组ID</code></pre>
 <p>我们可以选择 Ubuntu 或者 Centos 来创建虚拟机，如下提供多种规格便于选择，后期也可进行修改，1X 规格也就是每小时 2 分钱的规格了。</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906121623.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906121623.png" alt=""></a></p>
 <p>在完成选择并且设定名称之后点击保存就可以创建新的虚拟机了，以下自定义的规格最大如下图所示</p>
-<p>![image-20200906122011024](C:\Users\若葉 凌柚\AppData\Roaming\Typora\typora-user-images\image-20200906122011024.png)</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906121947.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906121947.png" alt=""></a></p>
 <p>完成创建后我们就可以使用SSH进行连接了。</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL8.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL8.png" alt=""></a></p>
 <p>这里我们点击 SSH 登陆方式就会弹出默认登录密码了，上面指令可以直接在 Windows 系统的 PowerShell 上面使用，输入密码就可以登录。</p>
