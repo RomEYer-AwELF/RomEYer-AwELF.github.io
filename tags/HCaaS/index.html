@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title>在同济世纪互联租户中创建应用并调用 API 方法 | 幻想の小屋 | 一个普通的博客</title>
+  <title>Tag: HCaaS | 幻想の小屋 | 一个普通的博客</title>
   
     <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/img/favicon.ico">
   
@@ -377,152 +377,64 @@
   </div>
 </header>
 
-      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.6/css/sharejs.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/xbclub/staticCDN@0.6/css/tocbot.css">
+      
 <div class="pattern-center-blank"></div>
-
-  <div class="pattern-center single-center">
-    <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img">
-        <img src="img/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21vianetbg.jpg" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
-      </div>
-    <header class="pattern-header single-header">
-      <h1 class="entry-title">
-      在同济世纪互联租户中创建应用并调用 API 方法</h1>
-      <p class="entry-census">
-        <span>
-          <a href="">
-            <img src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/img/avatar.png">
-          </a>
-        </span>
-        <span>
-          <a href="">RomEYer</a>
-        </span>
-        <span class="bull">
-        ·</span>
-        2020-8-21
-        
-      
-        ·<span id="readcount"></span>次阅读
-      
-      </p>
-    </header>
+<div class="pattern-center ">
+  <div class="pattern-attachment-img">
+    <img src="img/orange.progress-bar-stripe-loader.svg" data-src="HCaaS.img" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
   </div>
-
+  <header class="pattern-header ">
+    <h1 class="cat-title">HCaaS</h1>
+  </header>
+</div>
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
-        <div class="toc"></div>
-        <!--<div class="toc-entry-content"> <!-- 套嵌目录使用（主要为了支援评论）-->
-        
-        <div class="entry-content">
-          <h2 id="在同济世纪互联租户中创建应用并调用-API-方法"><a href="#在同济世纪互联租户中创建应用并调用-API-方法" class="headerlink" title="在同济世纪互联租户中创建应用并调用 API 方法"></a>在同济世纪互联租户中创建应用并调用 API 方法</h2><p>先简单说明一下已知情况，同济大学并未开放普通用户的 Azure AD 管理门户访问权限，至于一般注册应用也都是需要进入 AAD 来完成相关注册的。</p>
-<p><strong>不过这里有一点很有趣，首先我们可以了解几点：</strong></p>
-<ul>
-<li><p><strong>1.应用的 ID 和密钥是可以公用的，只要拥有以上两者，任何人都可以正常使用同一个注册应用，而 Onemanager 就是类似的方法。</strong></p>
-</li>
-<li><p><strong>2.在 AAD 的应用是可以跨租户注册的，如果我们在一个租户注册了对应应用，那么如果我们登录另外一个租户的账号的时候，这个应用也会转移到对应租户。而在这里这个应用是作为企业应用存在的，但是同样是有效的。</strong></p>
-</li>
-</ul>
-<p>知道了以上两点，我们实际上就已经解决了 AAD 无法访问导致的应用无法注册的问题。</p>
-<h4 id="附参考图（以下图样由国际版租户测试得到）："><a href="#附参考图（以下图样由国际版租户测试得到）：" class="headerlink" title="附参考图（以下图样由国际版租户测试得到）："></a><strong>附参考图（以下图样由国际版租户测试得到）：</strong></h4><p>租户一中进行应用注册，名称为：“ API （测试）”</p>
-<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API1.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API1.png" alt=""></a></p>
-<p>跳转时输入租户二中某账号信息并且完成许可</p>
-<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API2.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API2.png" alt=""></a></p>
-<p>此时租户二的企业应用程序中已经出现了租户一中“ API （测试）”应用</p>
-<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API3.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/21API3.png" alt=""></a></p>
-<h2 id="注意点"><a href="#注意点" class="headerlink" title="注意点"></a>注意点</h2><p>1.这里使用的其他租户必须开放 AAD 访问权限以便于可以注册应用，必须事先将回调地址设置好且获取应用 ID 和应用机密。（此处的应用 ID 和机密对应调用 API 时需要使用的应用 ID 和应用机密）</p>
-<p>2.需要额外准备世纪互联的租户，这个租户可以是有订阅或者无订阅租户（空全局）无订阅租户可以由 AAD 创建，这一点和国际版如出一辙，详细可以参考 <a href="https://www.loliloli.moe/2020/05/31/E3_Symphony.html#登录-Azure-创建租户">登录Azure创建租户</a> 有订阅租户可以是教育或者商业试用订阅全局，注册方法可以自行查询。</p>
-<h2 id="后日谈"><a href="#后日谈" class="headerlink" title="后日谈"></a>后日谈</h2><p><em>更新于2020.08.21</em></p>
-
-        </div>
-        
-        <!--</div>-->
-        <p></p>
-          
-        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
-        <footer class="post-footer">
-          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
-          <div class="post-tags">
-          </div>
-          <div class="post-share">
-            <div class="social-share sharehidden share-component"></div>
-            <i class="iconfont show-share icon-forward"></i>
-          </div>
-        </footer><!-- .entry-footer -->
-      </article>
-      <!-- #post-## -->
-      <div class="toc" style="background: none;"></div>
-      <section class="post-squares nextprev">
-        
-          
-            <div class="post-nepre half previous">
-          
-            <a href="/2020/09/06/HCaaS.html" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="img/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/bgLinkCloud.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/bgLinkCloud.jpg">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                白嫖 LinkCloud | HCaaS 容器云</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
-        
-          
-            <div class="post-nepre half next">
-          
-            <a href="/2020/08/08/Subscribe.html" rel="next">
-              <div class="background">
-                <img class="lazyload" src="img/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/906d4cdfdba55dc0191ef1d7641c35292c17eaa9.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/906d4cdfdba55dc0191ef1d7641c35292c17eaa9.jpg">
-              </div>
-              <span class="label">
-              Next Post</span>
-              <div class="info">
-                <h3>
-                Microsoft 灵车订阅表单</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
-      </section>
       
-<div id="vcomments"></div>
-<script>
-  window.onload = function(){
-      var valine = new Valine();
-      valine.init({
-        el: '#vcomments',
-        appId: "MOCEl4loIGAicV8DozU18vlL-MdYXbMMI",
-        appKey: "3xso2tfsCDSe0xD42AWoxLrL",
-        path: window.location.pathname,
-        placeholder: "你是我一生只会遇见一次的惊喜 ..."
-      })
-  }
-</script>
-
-      <section class="author-profile">
-        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDN/img/avatar.png" itemprop="image" alt="RomEYer" height="70" width="70"></a>
-          <div class="meta">
-            <span class="title">Author</span>
-            
-          </div>
+  <!-- 首页默认取最最新文章集 -->
+  
+    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
+  <div class="post-entry">
+    <div class="feature">
+      <a href="/2020/09/06/HCaaS.html">
+        <div class="overlay">
+          <i class="iconfont icon-text">
+          </i>
         </div>
-        <hr>
-        <p><i class="iconfont icon-write"></i>我们曾经考虑过很多很多...就和现在一样</p>
-      </section>
-    </main><!-- #main -->
-  </div><!-- #primary -->
+        <img width="150" height="150" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/bgLinkCloud.jpg" onerror="imgError(this,3)" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
+      </a>
+    </div>
+    <h1 class="entry-title">
+    <a href="/2020/09/06/HCaaS.html">
+    白嫖 LinkCloud | HCaaS 容器云</a>
+    </h1>
+    <div class="p-time">
+      <i class="iconfont icon-time">
+      </i>
+    2020-9-6</div>
+    <p>
+    很有趣的是，我们再次发现了白嫖的快乐源泉（误），如题目所示，我们这次将会白嫖 LinkCloud | HCaaS 的 300 元（ 不走 AFF 通道只有 200 ）赠金。值得一提的是这个赠金并没有试用期限如果只是开出最低的套餐，我们每小时只会花费 0.02 元...</p>
+    <footer class="entry-footer">
+      <div class="post-more">
+        <a href="/2020/09/06/HCaaS.html">
+          <i class="iconfont icon-caidan">
+          </i>
+        </a>
+      </div>
+    </footer>
+  </div>
+  <hr>
+</article>
+  
+
+
+      <div class="clearer">
+      </div>
+    </main>
+    <!--  -->
+    
+  </div>
 </div>
-
-
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>

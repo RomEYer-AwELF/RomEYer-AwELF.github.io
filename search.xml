@@ -1052,4 +1052,51 @@ RESOURSE_ID // 资源组ID</code></pre>
         <tag>番外</tag>
       </tags>
   </entry>
+  <entry>
+    <title>白嫖 LinkCloud | HCaaS 容器云</title>
+    <url>/2020/09/06/HCaaS.html</url>
+    <content><![CDATA[<h2 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h2><p>很有趣的是，我们再次发现了白嫖的快乐源泉（误），如题目所示，我们这次将会白嫖 LinkCloud | HCaaS 的 300 元（ 不走 AFF 通道只有 200 ）赠金。</p>
+<p>值得一提的是这个赠金<font color="red"><strong>并没有试用期限</strong></font>如果只是开出最低的套餐，我们每小时只会花费 0.02 元。</p>
+<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul>
+<li><p>AFF注册链接（疑似失效）：<a href="https://cubepaas.com/?spread=fe15aca516004cacadab6af8b864b338x3dihv4hk6" target="_blank" rel="noopener">https://cubepaas.com/?spread=fe15aca516004cacadab6af8b864b338x3dihv4hk6</a></p>
+</li>
+<li><p>直接注册链接：<a href="https://console.cubepaas.com/" target="_blank" rel="noopener">https://console.cubepaas.com/</a></p>
+</li>
+</ul>
+<h2 id="白嫖方法"><a href="#白嫖方法" class="headerlink" title="白嫖方法"></a>白嫖方法</h2><p>现在由于维护？首页注册入口已经被取消（AFF链接失效原因）但是我们仍然可以直接使用注册链接注册。</p>
+<p>打开链接：<a href="https://console.cubepaas.com/" target="_blank" rel="noopener">https://console.cubepaas.com/</a></p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906120248.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906120248.png" alt=""></a></p>
+<p>我们可以看到这里可以使用第一项，GayHub 直接登录（最方便的方案），然后是微信和最下面的直接注册方法。相对来说博主自己更加推荐直接使用 GitHub 登录。</p>
+<p>使用 GayHub 登录的时候，点击 Authorize cubepass 就可以了。</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200906120812.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200906120812.png" alt=""></a></p>
+<p>随后我们随意填入项目名称，并且填入任意邮箱即可完成注册。</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200906121030.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200906121030.png" alt=""></a></p>
+<p>赠金截图：</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL0.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL0.png" alt=""></a></p>
+<p>完成注册后我们就可以进入面板了（这里是博主已经注册的账号）</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906121235.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906121235.png" alt=""></a></p>
+<p>可以看到这个面板还是比较友好的，我们只需要简单的操作就可以完成大部分需要的工作。</p>
+<p>这里我们选择容器虚拟机、创建虚拟机。</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906121517.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906121517.png" alt=""></a></p>
+<p>我们可以选择 Ubuntu 或者 Centos 来创建虚拟机，如下提供多种规格便于选择，后期也可进行修改，1X 规格也就是每小时 2 分钱的规格了。</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906121623.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906121623.png" alt=""></a></p>
+<p>在完成选择并且设定名称之后点击保存就可以创建新的虚拟机了，以下自定义的规格最大如下图所示</p>
+<p>![image-20200906122011024](C:\Users\若葉 凌柚\AppData\Roaming\Typora\typora-user-images\image-20200906122011024.png)</p>
+<p>完成创建后我们就可以使用SSH进行连接了。</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL8.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL8.png" alt=""></a></p>
+<p>这里我们点击 SSH 登陆方式就会弹出默认登录密码了，上面指令可以直接在 Windows 系统的 PowerShell 上面使用，输入密码就可以登录。</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200906123410.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/20200906123410.png" alt=""></a></p>
+<p>前面为登陆地址，和用户（root）后面则是端口号。</p>
+<p>登陆后建议及时修改密码（ 修改密码指令：passwd ）</p>
+<p>附上最低配置（ X1 ）测试图：</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/IDC.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/IDC.png" alt=""></a></p>
+<h2 id="后日谈"><a href="#后日谈" class="headerlink" title="后日谈"></a>后日谈</h2><p><em>更新于2020.09.06</em></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>HCaaS</tag>
+      </tags>
+  </entry>
 </search>

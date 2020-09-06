@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.loliloli.moe/"/>
-  <updated>2020-08-21T06:11:20.756Z</updated>
+  <updated>2020-09-06T04:38:02.515Z</updated>
   <id>https://www.loliloli.moe/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>白嫖 LinkCloud | HCaaS 容器云</title>
+    <link href="https://www.loliloli.moe/2020/09/06/HCaaS.html"/>
+    <id>https://www.loliloli.moe/2020/09/06/HCaaS.html</id>
+    <published>2020-09-06T04:41:24.000Z</published>
+    <updated>2020-09-06T04:38:02.515Z</updated>
+    
+    <summary type="html">
+    
+      很有趣的是，我们再次发现了白嫖的快乐源泉（误），如题目所示，我们这次将会白嫖 LinkCloud | HCaaS 的 300 元（ 不走 AFF 通道只有 200 ）赠金。值得一提的是这个赠金并没有试用期限如果只是开出最低的套餐，我们每小时只会花费 0.02 元...
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="https://www.loliloli.moe/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="HCaaS" scheme="https://www.loliloli.moe/tags/HCaaS/"/>
+    
+  </entry>
   
   <entry>
     <title>在同济世纪互联租户中创建应用并调用 API 方法</title>
