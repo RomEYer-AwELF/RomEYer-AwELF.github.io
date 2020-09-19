@@ -1061,9 +1061,12 @@ RESOURSE_ID // 资源组ID</code></pre>
     <content><![CDATA[<h2 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h2><p>很有趣的是，我们再次发现了白嫖的快乐源泉（误），如题目所示，我们这次将会白嫖 LinkCloud | HCaaS 的 300 元（ 不走 AFF 通道只有 200 ）赠金。</p>
 <p>值得一提的是这个赠金<font color="red"><strong>并没有试用期限</strong></font>如果只是开出最低的套餐，我们每小时只会花费 0.02 元。</p>
 <h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul>
-<li>AFF注册链接（疑似失效）：<a href="https://cubepaas.com/?spread=fe15aca516004cacadab6af8b864b338x3dihv4hk6" target="_blank" rel="noopener">https://cubepaas.com/?spread=fe15aca516004cacadab6af8b864b338x3dihv4hk6</a></li>
-<li>直接注册链接：<a href="https://console.cubepaas.com/" target="_blank" rel="noopener">https://console.cubepaas.com/</a></li>
+<li><p>AFF注册链接（疑似失效）：<a href="https://cubepaas.com/?spread=fe15aca516004cacadab6af8b864b338x3dihv4hk6" target="_blank" rel="noopener">https://cubepaas.com/?spread=fe15aca516004cacadab6af8b864b338x3dihv4hk6</a></p>
+</li>
+<li><p>直接注册链接：<a href="https://console.cubepaas.com/" target="_blank" rel="noopener">https://console.cubepaas.com/</a></p>
+</li>
 </ul>
+<p><font color="red"><strong>方法已经失效，新注册的用户需要使用邀请码</strong></font></p>
 <h2 id="白嫖方法"><a href="#白嫖方法" class="headerlink" title="白嫖方法"></a>白嫖方法</h2><p>现在由于维护？首页注册入口已经被取消（AFF链接失效原因）但是我们仍然可以直接使用注册链接注册。</p>
 <p>打开链接：<a href="https://console.cubepaas.com/" target="_blank" rel="noopener">https://console.cubepaas.com/</a></p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906120248.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/CL20200906120248.png" alt=""></a></p>
@@ -1091,7 +1094,9 @@ RESOURSE_ID // 资源组ID</code></pre>
 <p>登陆后建议及时修改密码（ 修改密码指令：passwd ）</p>
 <p>附上最低配置（ X1 ）测试图：</p>
 <p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/IDC.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/IDC.png" alt=""></a></p>
-<h2 id="后日谈"><a href="#后日谈" class="headerlink" title="后日谈"></a>后日谈</h2><p><em>更新于2020.09.06</em></p>
+<h2 id="后日谈"><a href="#后日谈" class="headerlink" title="后日谈"></a>后日谈</h2><p><em>更新于2020.09.19</em></p>
+<p>新注册的用户已经需要邀请码了</p>
+<p><a data-fancybox="gallery" data-caption="" href="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/HCaaS19.png" target="_blank" rel="noopener"><img data-action="zoom" src="https://cdn.jsdelivr.net/gh/RomEYer-AwELF/CDNimg/img/HCaaS19.png" alt=""></a></p>
 ]]></content>
       <categories>
         <category>技术</category>
