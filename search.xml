@@ -654,7 +654,8 @@ RESOURSE_ID // 资源组ID</code></pre>
 <p>而七月中旬，部分全局拥有者收到了微软的通知，内容即是说明该全局不符合教育认证要求，OneDrive 和 Sharepoint 被停用且无法恢复。很显然先前通过域名解绑途径翻回来的全局很可能会因此 OD 和 SPO 死亡。此时这种操作无疑是微软继锁订阅、封全局之后的最新风控策略了。（由于目前手上没有域的 OD 和 SPO 被封，所以也没有相关通知，所以就不展示了）</p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p><strong>微软风控UP!UP!UP!</strong></p>
 <p><font color=red size=5em>薅羊毛请随时做好翻车准备，且不要竭泽而渔！</font></p>
-<h2 id="后日谈"><a href="#后日谈" class="headerlink" title="后日谈"></a>后日谈</h2><p><em>更新于2020.07.26</em></p>
+<h2 id="后日谈"><a href="#后日谈" class="headerlink" title="后日谈"></a>后日谈</h2><p><em>更新于2020.10.26</em></p>
+<p>最近微软改变了某些方针，致使教育域名在验证完教育全局后解绑立即失效（且全局掉Tag）</p>
 ]]></content>
       <categories>
         <category>杂谈</category>
