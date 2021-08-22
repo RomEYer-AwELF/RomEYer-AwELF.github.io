@@ -1,0 +1,16 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<% if (theme.Google_Analytics.enable) { %>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<%- theme.Google_Analytics.id %>"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', '<%- theme.Google_Analytics.id %>');
+</script>
+<% } %>
+<% if (theme.Google_AdSense.enable) { %>
+<script data-ad-client="<%- theme.Google_AdSense.id %>" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<% } %>
